@@ -44,7 +44,7 @@ No Modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| tags | (Required) module global tags. | `map(any)` | `null` | yes |
+| tags | (Required) module global tags. | `object({Name = string, Author = string, Environment = string, Provisioner = string, Region= string})` | `null` | yes |
 | vpc_id | (Required) VPC id. | `string` | `null` | yes |
 | service_name | (Required) Service name with included region. | `string` | `null` | yes |
 | vpc_endpoint_type | (Required) Vpc endpoint type. | `list(string)` | `null` | yes |
