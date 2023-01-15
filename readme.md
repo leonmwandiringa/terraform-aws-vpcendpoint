@@ -7,6 +7,7 @@ ECS configurations includes:
 - Interface and Gateway VPC Endpoint creation
 - Security groups association
 - route table association
+- endpoitn policy creation and attachment
 
 ## Basic Usage
 
