@@ -9,7 +9,7 @@ variable "route_table_id" {
   default = null
 }
 
-variable policy" {
+variable "policy" {
   type        = string
   description = "policy to attach to en eni"
   default = null
