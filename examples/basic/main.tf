@@ -10,9 +10,9 @@ module "vpc_endpoint" {
   security_group_ids = ["sg-054bc5759c5e2b25c"]
   subnet_ids = ["subnet-33fee75b", "subnet-aed26ce2"]
   tags   = {
-    Name = "testo1"
-    Author      = "aut1"
-    Environment = "env1"
+    Name = "enp"
+    Author      = "enp"
+    Environment = "dev"
     Provisioner = "terraform"
     Region      = "us-east-2"
   }
