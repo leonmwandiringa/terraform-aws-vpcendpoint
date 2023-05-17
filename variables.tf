@@ -18,6 +18,7 @@ variable "policy" {
 variable "security_group_ids" {
   type = list(string)
   description = "security group ids"
+  default = [ ]
 }
 
 variable "tags" {
